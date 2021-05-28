@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/asus/Desktop/Cours-Tp/TP_VHDL/project3/Full_adder.vhd
+source_file = 1, C:/Users/asus/Desktop/Cours-Tp/TP_VHDL/project3/Testbench_full_adder.vhd
+source_file = 1, C:/Users/asus/Desktop/Cours-Tp/TP_VHDL/project3/Full_adder.vwf
+source_file = 1, C:/Users/asus/Desktop/Cours-Tp/TP_VHDL/project3/db/Full_adder.cbx.xml
+design_name = full_adder
+instance = comp, \S~output\, S~output, full_adder, 1
+instance = comp, \Cout~output\, Cout~output, full_adder, 1
+instance = comp, \A~input\, A~input, full_adder, 1
+instance = comp, \B~input\, B~input, full_adder, 1
+instance = comp, \Cin~input\, Cin~input, full_adder, 1
+instance = comp, \S~2\, S~2, full_adder, 1
+instance = comp, \Cout~5\, Cout~5, full_adder, 1

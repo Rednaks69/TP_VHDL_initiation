@@ -1,0 +1,114 @@
+// Copyright (C) 1991-2009 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP3C5F256C6 Package FBGA256
+// 
+
+//
+// This file contains Slow Corner delays for the design using part EP3C5F256C6,
+// with speed grade 6, core voltage 1.2V, and temperature 85 Celsius
+//
+
+// 
+// This SDF file should be used for ModelSim-Altera (VHDL) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "full_adder")
+  (DATE "05/27/2021 12:37:39")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II")
+  (VERSION "Version 9.0 Build 132 02/25/2009 SJ Full Version")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\S\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (568:568:568) (570:570:570))
+        (IOPATH i o (1989:1989:1989) (1973:1973:1973))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_obuf")
+    (INSTANCE \\Cout\~output\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT i (770:770:770) (777:777:777))
+        (IOPATH i o (1939:1939:1939) (1937:1937:1937))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\A\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\B\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (676:676:676) (840:840:840))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_io_ibuf")
+    (INSTANCE \\Cin\~input\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (670:670:670) (832:832:832))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\S\~2\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2992:2992:2992) (3252:3252:3252))
+        (PORT datac (3290:3290:3290) (3611:3611:3611))
+        (PORT datad (3208:3208:3208) (3433:3433:3433))
+        (IOPATH dataa combout (356:356:356) (368:368:368))
+        (IOPATH datac combout (243:243:243) (242:242:242))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneiii_lcell_comb")
+    (INSTANCE \\Cout\~5\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2991:2991:2991) (3251:3251:3251))
+        (PORT datac (3289:3289:3289) (3610:3610:3610))
+        (PORT datad (3213:3213:3213) (3437:3437:3437))
+        (IOPATH dataa combout (341:341:341) (347:347:347))
+        (IOPATH datac combout (243:243:243) (242:242:242))
+        (IOPATH datad combout (130:130:130) (120:120:120))
+      )
+    )
+  )
+)

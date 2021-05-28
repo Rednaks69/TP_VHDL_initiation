@@ -1,0 +1,476 @@
+TimeQuest Timing Analyzer report for Full_adder
+Thu May 27 12:37:37 2021
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Slow 1200mV 85C Model Setup Summary
+  7. Slow 1200mV 85C Model Hold Summary
+  8. Slow 1200mV 85C Model Recovery Summary
+  9. Slow 1200mV 85C Model Removal Summary
+ 10. Slow 1200mV 85C Model Minimum Pulse Width
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Slow 1200mV 0C Model Fmax Summary
+ 14. Slow 1200mV 0C Model Setup Summary
+ 15. Slow 1200mV 0C Model Hold Summary
+ 16. Slow 1200mV 0C Model Recovery Summary
+ 17. Slow 1200mV 0C Model Removal Summary
+ 18. Slow 1200mV 0C Model Minimum Pulse Width
+ 19. Propagation Delay
+ 20. Minimum Propagation Delay
+ 21. Fast 1200mV 0C Model Setup Summary
+ 22. Fast 1200mV 0C Model Hold Summary
+ 23. Fast 1200mV 0C Model Recovery Summary
+ 24. Fast 1200mV 0C Model Removal Summary
+ 25. Fast 1200mV 0C Model Minimum Pulse Width
+ 26. Propagation Delay
+ 27. Minimum Propagation Delay
+ 28. Multicorner Timing Analysis Summary
+ 29. Progagation Delay
+ 30. Minimum Progagation Delay
+ 31. Board Trace Model Assignments
+ 32. Input Transition Times
+ 33. Slow Corner Signal Integrity Metrics
+ 34. Fast Corner Signal Integrity Metrics
+ 35. Clock Transfers
+ 36. Report TCCS
+ 37. Report RSKM
+ 38. Unconstrained Paths
+ 39. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name      ; Full_adder                                       ;
+; Device Family      ; Cyclone III                                      ;
+; Device Name        ; EP3C5F256C6                                      ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Enabled                                          ;
++--------------------+--------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-4 processors         ; < 0.1%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+---------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width ;
+---------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 6.711 ;       ;       ; 7.144 ;
+; A          ; S           ; 6.573 ; 6.573 ; 6.997 ; 6.994 ;
+; B          ; Cout        ; 6.917 ;       ;       ; 7.406 ;
+; B          ; S           ; 6.766 ; 6.740 ; 7.230 ; 7.236 ;
+; Cin        ; Cout        ; 6.722 ;       ;       ; 7.093 ;
+; Cin        ; S           ; 6.565 ; 6.541 ; 6.951 ; 6.918 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 6.490 ;       ;       ; 6.904 ;
+; A          ; S           ; 6.348 ; 6.351 ; 6.770 ; 6.736 ;
+; B          ; Cout        ; 6.733 ;       ;       ; 7.212 ;
+; B          ; S           ; 6.591 ; 6.565 ; 7.045 ; 7.050 ;
+; Cin        ; Cout        ; 6.552 ;       ;       ; 6.913 ;
+; Cin        ; S           ; 6.403 ; 6.379 ; 6.779 ; 6.746 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+--------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width ;
+--------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 6.215 ;       ;       ; 6.538 ;
+; A          ; S           ; 6.085 ; 6.079 ; 6.428 ; 6.418 ;
+; B          ; Cout        ; 6.406 ;       ;       ; 6.779 ;
+; B          ; S           ; 6.266 ; 6.236 ; 6.643 ; 6.642 ;
+; Cin        ; Cout        ; 6.235 ;       ;       ; 6.527 ;
+; Cin        ; S           ; 6.088 ; 6.060 ; 6.420 ; 6.384 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 6.020 ;       ;       ; 6.329 ;
+; A          ; S           ; 5.887 ; 5.887 ; 6.229 ; 6.194 ;
+; B          ; Cout        ; 6.248 ;       ;       ; 6.612 ;
+; B          ; S           ; 6.114 ; 6.084 ; 6.484 ; 6.482 ;
+; Cin        ; Cout        ; 6.088 ;       ;       ; 6.373 ;
+; Cin        ; S           ; 5.948 ; 5.920 ; 6.272 ; 6.238 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+--------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width ;
+--------------------------------------------
+Nothing to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 3.923 ;       ;       ; 4.557 ;
+; A          ; S           ; 3.850 ; 3.912 ; 4.437 ; 4.490 ;
+; B          ; Cout        ; 4.061 ;       ;       ; 4.744 ;
+; B          ; S           ; 3.980 ; 4.029 ; 4.597 ; 4.664 ;
+; Cin        ; Cout        ; 3.935 ;       ;       ; 4.566 ;
+; Cin        ; S           ; 3.849 ; 3.901 ; 4.436 ; 4.481 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 3.796 ;       ;       ; 4.417 ;
+; A          ; S           ; 3.721 ; 3.779 ; 4.302 ; 4.342 ;
+; B          ; Cout        ; 3.959 ;       ;       ; 4.630 ;
+; B          ; S           ; 3.882 ; 3.928 ; 4.489 ; 4.555 ;
+; Cin        ; Cout        ; 3.835 ;       ;       ; 4.459 ;
+; Cin        ; S           ; 3.754 ; 3.805 ; 4.335 ; 4.379 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; N/A                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++----------------------------------------------------------+
+; Progagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 6.711 ;       ;       ; 7.144 ;
+; A          ; S           ; 6.573 ; 6.573 ; 6.997 ; 6.994 ;
+; B          ; Cout        ; 6.917 ;       ;       ; 7.406 ;
+; B          ; S           ; 6.766 ; 6.740 ; 7.230 ; 7.236 ;
+; Cin        ; Cout        ; 6.722 ;       ;       ; 7.093 ;
+; Cin        ; S           ; 6.565 ; 6.541 ; 6.951 ; 6.918 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A          ; Cout        ; 3.796 ;       ;       ; 4.417 ;
+; A          ; S           ; 3.721 ; 3.779 ; 4.302 ; 4.342 ;
+; B          ; Cout        ; 3.959 ;       ;       ; 4.630 ;
+; B          ; S           ; 3.882 ; 3.928 ; 4.489 ; 4.555 ;
+; Cin        ; Cout        ; 3.835 ;       ;       ; 4.459 ;
+; Cin        ; S           ; 3.754 ; 3.805 ; 4.335 ; 4.379 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; S             ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; Cout          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; Cin                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; B                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; A                       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; S             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; Cout          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00438 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00438 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-007 V                  ; 2.36 V              ; -0.0226 V           ; 0.073 V                              ; 0.034 V                              ; 3.97e-010 s                 ; 3.26e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-007 V                 ; 2.36 V             ; -0.0226 V          ; 0.073 V                             ; 0.034 V                             ; 3.97e-010 s                ; 3.26e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-007 V                  ; 2.35 V              ; -0.00567 V          ; 0.081 V                              ; 0.032 V                              ; 5.3e-010 s                  ; 7.56e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-007 V                 ; 2.35 V             ; -0.00567 V         ; 0.081 V                             ; 0.032 V                             ; 5.3e-010 s                 ; 7.56e-010 s                ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; S             ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0357 V           ; 0.174 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0357 V          ; 0.174 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; Cout          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0402 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.62e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0402 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.62e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.2e-008 V                   ; 2.74 V              ; -0.061 V            ; 0.159 V                              ; 0.078 V                              ; 2.7e-010 s                  ; 2.2e-010 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.2e-008 V                  ; 2.74 V             ; -0.061 V           ; 0.159 V                             ; 0.078 V                             ; 2.7e-010 s                 ; 2.2e-010 s                 ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.52e-008 V                  ; 2.7 V               ; -0.0119 V           ; 0.274 V                              ; 0.034 V                              ; 3.18e-010 s                 ; 4.97e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 3.52e-008 V                 ; 2.7 V              ; -0.0119 V          ; 0.274 V                             ; 0.034 V                             ; 3.18e-010 s                ; 4.97e-010 s                ; No                        ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+No clock transfers to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design.
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design.
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 3     ; 3    ;
+; Unconstrained Input Port Paths  ; 6     ; 6    ;
+; Unconstrained Output Ports      ; 2     ; 2    ;
+; Unconstrained Output Port Paths ; 6     ; 6    ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Thu May 27 12:37:34 2021
+Info: Command: quartus_sta Full_adder -c Full_adder
+Info: qsta_default_script.tcl version: #3
+Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: high junction temperature operating condition is not set. Assuming a default value of '85'.
+Info: low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning: Synopsys Design Constraints File file not found: 'Full_adder.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: write_sdc -pt
+Info: No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info: No fmax paths to report
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No fmax paths to report
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Info: Analyzing Fast 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No setup paths to report
+Info: No hold paths to report
+Info: No recovery paths to report
+Info: No removal paths to report
+Info: No minimum pulse width or minimum period width checks to report
+Info: The Metastability Analysis global option is set to OFF.
+Info: No synchronizer chains to report.
+Warning: At least one of the filters had some problems and could not be matched.
+    Warning: * could not be matched with a clock.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 275 megabytes
+    Info: Processing ended: Thu May 27 12:37:37 2021
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
